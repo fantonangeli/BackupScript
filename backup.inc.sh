@@ -11,7 +11,7 @@ simulationMode=0
 # prints backup statistics
 function printStats()
 {
-    printf 'Elapse time: %s\n' $(timer $t)
+    printf 'Elapsed time: %s\n' $(timer $t)
 
     ls -lh $backupDir
 }
